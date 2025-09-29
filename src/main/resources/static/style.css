@@ -6,31 +6,25 @@
 
 /*--------Шапка сайта--------------------------------*/
 
-
-
 body {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    
     background-color: white;
     color: #1d1919;
-    
     margin: 0;
     position: relative;
 }
 
-
 header {
     font-size: 1.5em;
-    
     height: 2.5em;
-    
     color: #eeeaea;
     background-color: #272424;
-    
-    position: fixed; top: 0; width: 100%; z-index: 1000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
-
 
 @keyframes changeColor {
     0% {
@@ -44,40 +38,31 @@ header {
     }
 }
 
-
 .head {
     display: flex;
     margin-top: 0.5em;
     margin-left: 4em;
 }
 
-
 .link-head {
     text-align: center;
     margin-top: 0.2em;
-    
     color: #eeeaea;
     text-decoration: none;
-    
     margin-right: 1.5em;
     width: 5.7em;
     display: inline-block;
-    
     transition: font-weight 0.2s linear, color 0.2s linear;
-    
     animation: changeColor 1.5s;
-} 
-
+}
 
 .link-head:hover {
     font-weight: bold;
     color: #8ca9e7;
 }
 
-
 .logo-bmw {
     margin: 0;
-    
     position: fixed;
     max-width: 1.7em;
     right: 2em;
@@ -86,28 +71,28 @@ header {
 
 /*-------Тело сайта----------------------------------*/
 
-
 .img {
     position: relative;
     top: 4px;
 }
-
 
 .main-img {
     width: 100%;
     height: 100%;
 }
 
-
 @keyframes rightMove {
-  from {
-    right: -100%;
-  }
-  to {
-    right: 0;
-  }
+    from {
+        right: -100%;
+    }
+    to {
+        right: 0;
+    }
 }
 
+h1 {
+    font-size: 3em;
+}
 
 .background-img {
     display: inline-block;
@@ -115,34 +100,25 @@ header {
     right: 0;
     height: 100%;
     width: 25%;
-    
     background-color: #272424;
     opacity: 70%;
     z-index: 1;
-    
     animation-name: rightMove;
-    animation-duration: 1.5s; 
+    animation-duration: 1.5s;
 }
-
-h1 {
-    font-size: 3em;
-}
-
 
 .text-img {
     color: #eeeaea;
     text-align: center;
     padding-top: 20%;
-    
     display: inline-block;
     position: absolute;
     right: 0;
     height: 100%;
     width: 25%;
     z-index: 2;
-    
     animation-name: rightMove;
-    animation-duration: 1.7s; 
+    animation-duration: 1.7s;
 }
 
 .link-main-border {
@@ -150,12 +126,10 @@ h1 {
     color: #eeeaea;
     width: 18em;
     height: 5em;
-    
     margin-left: -9em;
     left: 50%;
     border: 3px solid;
     position: relative;
-    
     transition: background-color 0.2s linear;
 }
 
@@ -171,20 +145,16 @@ h1 {
     background-color: #252020;
 }
 
-
 .img-description {
     position: absolute;
     bottom: 0;
     text-align: left;
-    
     color: #ffffff;
     font-size: 0.8em;
     padding: 2em;
-    
     width: 40%;
     z-index: 3;
 }
-
 
 .description-flex {
     display: flex;
@@ -194,7 +164,6 @@ h1 {
     height: auto;
     z-index: 4;
 }
-
 
 .description {
     font-size: 1.7em;
@@ -239,16 +208,14 @@ li {
 }
 
 .images {
-    width: auto;
-    height: 100%;
+    width: 100%;
+    height: auto;
 }
 
 .characteristics {
     width: 50%;
     height: auto;
-    margin: 2em;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 2em auto 2em auto;
 }
 
 .characteristics-title {
@@ -309,7 +276,6 @@ li {
 
 /*-----------------footer----------------------*/
 
-
 .footer-form {
     display: flex;
     justify-content: space-between;
@@ -369,7 +335,6 @@ li {
     margin-bottom: 60%;
 }
 
-
 .footer-bottom {
     position: relative;
     height: 15em;
@@ -412,13 +377,13 @@ h4 {
 .button1 {
     border: solid 1px #a4a4a4ff;
     padding: 0.4em 2em 0.4em 2em;
-    margin-right: 19%; 
+    margin-right: 19%;
 }
 
 .button2 {
     border: solid 1px #a4a4a4ff;
     padding: 0.4em 2em 0.4em 2em;
-    margin-left: 19%; 
+    margin-left: 19%;
 }
 
 .button1:hover {
@@ -429,6 +394,122 @@ h4 {
     background-color: #6e6e6e22
 }
 
+/* Мобильная адаптация */
+@media (max-width: 1250px) {
+    body {
+        font-size: 13px;
+    }
+    .text-img {
+        color: #eeeaea;
+        text-align: center;
+        padding-top: 20%;
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        height: 100%;
+        width: 25%;
+        z-index: 2;
+        animation-name: rightMove;
+        animation-duration: 1.7s;
+        font-size: 0.7em;
+    }
+    .heading {
+        text-align: center;
+        font-size: 0.7em;
+        width: 60%;
+        margin: 0 auto;
+        text-transform: uppercase;
+        color: #1d1919;
+    }
+    .description {
+        font-size: 1.7em;
+        width: 90%;
+        margin: 0 auto;
+        color: #1d1919;
+        text-align: justify;
+    }
+    .characteristics {
+        width: 90%;
+        height: auto;
+        margin: 1em auto 1em auto;
+    }
+
+    .characteristics-title {
+        font-size: 3em;
+        color: white;
+        text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+        margin-left: 25%;
+    }
+    .characteristic-name {
+        font-size: 2em;
+        font-weight: bold;
+        margin-top: 3px;
+        width: 27%;
+    }
+    .form {
+        margin: 1em 20% 1em 0;
+        padding: 1em;
+        width: 40%;
+        height: auto;
+        text-align: center;
+    }
+    .footer-bottom {
+        position: relative;
+        height: 15em;
+        width: 100%;
+        font-size: 0.5em;
+        padding: 2em 50% 1em 10%;
+        color: #898989;
+    }
+}
+
+@media (max-width: 1950px) {
+    body {
+        font-size: 14px;
+    }
+    .description-img {
+        position: absolute;
+        left: 10%;
+        top: 20%;
+        width: 33%;
+    }
+    .button1 {
+        font-size: 0.8em;
+        border: solid 1px #a4a4a4ff;
+        padding: 0.2em 1em 0.2em 1em;
+        margin-right: 10%;
+    }
+    .button2 {
+        font-size: 0.8em;
+        border: solid 1px #a4a4a4ff;
+        padding: 0.2em 1em 0.2em 1em;
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 2100px) {
+    body {
+        font-size: 14px;
+    }
+    .description-img {
+        position: absolute;
+        left: 10%;
+        top: 20%;
+        width: 33%;
+    }
+    .button1 {
+        font-size: 0.8em;
+        border: solid 1px #a4a4a4ff;
+        padding: 0.2em 1em 0.2em 1em;
+        margin-right: 10%;
+    }
+    .button2 {
+        font-size: 0.8em;
+        border: solid 1px #a4a4a4ff;
+        padding: 0.2em 1em 0.2em 1em;
+        margin-left: 10%;
+    }
+}
 
 
 

@@ -2,6 +2,7 @@
 <html xmlns:th="http://www.thymeleaf.org" lang="en">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link th:href="@{/style.css}" rel="stylesheet" type="text/css">
     <title th:text="${title}"></title>
     <link rel="icon" sizes="32x32" type="image/png" th:href="@{/img/BMW_logo.png}">
@@ -30,256 +31,256 @@
         </div>
     </div>
 </main>
-    <div class="description-flex">
-        <div class="description">
-            <div class="heading">
-                <h1>Особенности <span>этого мощного</span> байка</h1>
-            </div>
-            <ul class="list">
-                <li>Новая рама: вместо традиционной трубчатой — несущий силовой агрегат и литая алюминиевая передняя часть. Это сделало конструкцию проще и легче.</li>
-                <li>Возросший объем и мощность: двигатель 1300 cc (вместо 1254) — 145 л.с. (вместо 136). Крутящий момент также увеличен.</li>
-                <li>Более компактный и легкий: двигатель стал короче и уже. Мотоцикл в целом потерял в весе ~12 кг (в базовой версии).</li>
-                <li>Обновленный дизайн: значительно переработанная оптика («прорезь» вместо «сдвоенных фар» X-образного вида), более угловатый и современный облик.</li>
-                <li>Эволюция электроники: усовершенствованные режимы езды, курсовая стабилизация и т.д.</li>
-            </ul>
+<div class="description-flex">
+    <div class="description">
+        <div class="heading">
+            <h1>Особенности <span>этого мощного</span> байка</h1>
         </div>
         <img class="description-img" th:src="@{/img/engine.png}" alt="">
+        <ul class="list">
+            <li>Новая рама: вместо традиционной трубчатой — несущий силовой агрегат и литая алюминиевая передняя часть. Это сделало конструкцию проще и легче.</li>
+            <li>Возросший объем и мощность: двигатель 1300 cc (вместо 1254) — 145 л.с. (вместо 136). Крутящий момент также увеличен.</li>
+            <li>Более компактный и легкий: двигатель стал короче и уже. Мотоцикл в целом потерял в весе ~12 кг (в базовой версии).</li>
+            <li>Обновленный дизайн: значительно переработанная оптика («прорезь» вместо «сдвоенных фар» X-образного вида), более угловатый и современный облик.</li>
+            <li>Эволюция электроники: усовершенствованные режимы езды, курсовая стабилизация и т.д.</li>
+        </ul>
     </div>
-    
-    <div class="imgs">
-        <img class="images" th:src="@{/img/3 _photos_bmw.jpeg}" alt="">
-    </div>
-    
-    <div class="characteristics">
-        <h1 class="characteristics-title" id="Characteristics">Характеристики</h1>
-        <div class="characteristic1">
-            <h2 class="characteristic-name">Двигатель</h2>
-            <div class="characteristic-box">
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Номинальная мощность</h3>
-                    <p class="characteristic-description">107 кВт (145 л.с.) при 7,750 об/мин</p>
-                </div>
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Очистка отработавших газов</h3>
-                    <p class="characteristic-description">Регулируемый 3-ходовой катализатор</p>
-                </div>
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Модификация</h3>
-                    <p class="characteristic-description">Двухцилиндровый четырехтактный оппозитный двигатель с воздушным/жидкостным охлаждением с двумя верхними распределительными валами с цепным приводом BMW ShiftCam и компенсаторными шестернями</p>
-                </div>
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Диаметр и ход поршня</h3>
-                    <p class="characteristic-description">106,5 мм x 73 мм</p>
-                </div>
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Объем двигателя</h3>
-                    <p class="characteristic-description">1,300 куб. см</p>
-                </div>
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Макс. крутящий момент</h3>
-                    <p class="characteristic-description">149 Нм при 6,500 об/мин</p>
-                </div>
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Степень сжатия</h3>
-                    <p class="characteristic-description">13,3 : 1</p>
-                </div>
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Подготовка рабочей смеси</h3>
-                    <p class="characteristic-description">Электронная система впрыскивания топлива в предкамеру</p>
-                </div>
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Норма токсичности ОГ</h3>
-                    <p class="characteristic-description">EU 5+</p>
-                </div>
+</div>
+
+<div class="imgs">
+    <img class="images" th:src="@{/img/3 _photos_bmw.jpeg}" alt="">
+</div>
+
+<div class="characteristics">
+    <h1 class="characteristics-title" id="Characteristics">Характеристики</h1>
+    <div class="characteristic1">
+        <h2 class="characteristic-name">Двигатель</h2>
+        <div class="characteristic-box">
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Номинальная мощность</h3>
+                <p class="characteristic-description">107 кВт (145 л.с.) при 7,750 об/мин</p>
             </div>
-        </div>
-        <div class="characteristic1">
-            <h2 class="characteristic-name">Ходовые качества/расход топлива</h2>
-            <div class="characteristic-box">
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Максимальная скорость</h3>
-                    <p class="characteristic-description">свыше 200 км/ч</p>
-                </div>
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Расход на 100 км согласно стандарту WMTC</h3>
-                    <p class="characteristic-description">4.8 л</p>
-                </div>
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Уровень выброса углекислого газа согласно стандарту WMTC</h3>
-                    <p class="characteristic-description">110 г/км</p>
-                </div>
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Тип топлива</h3>
-                    <p class="characteristic-description">Неэтилированный бензин Super (этанол макс. 15 %, E15), 95 ROZ/RON, подготовка под топливо качества 91-98 ROZ/RON</p>
-                </div>
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Очистка отработавших газов</h3>
+                <p class="characteristic-description">Регулируемый 3-ходовой катализатор</p>
             </div>
-        </div>
-        <div class="characteristic1">
-            <h2 class="characteristic-name">Электрическая система</h2>
-            <div class="characteristic-box">
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Генератор</h3>
-                    <p class="characteristic-description">Трехфазный генератор 650 Вт (номинальная мощность)</p>
-                </div>
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Аккумуляторная батарея</h3>
-                    <p class="characteristic-description">Аккумуляторная батарея 12 В / 14 Ач, не требующий технического обслуживания аккумулятор AGM</p>
-                </div>
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Модификация</h3>
+                <p class="characteristic-description">Двухцилиндровый четырехтактный оппозитный двигатель с воздушным/жидкостным охлаждением с двумя верхними распределительными валами с цепным приводом BMW ShiftCam и компенсаторными шестернями</p>
             </div>
-        </div>
-        <div class="characteristic1">
-            <h2 class="characteristic-name">Передача усилия</h2>
-            <div class="characteristic-box">
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Сцепление</h3>
-                    <p class="characteristic-description">Гидравлическая муфта проскальзывающего типа, Anti-Hopping, с гидравлическим приводом</p>
-                </div>
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Коробка передач</h3>
-                    <p class="characteristic-description">6-ступенчатая коробка передач</p>
-                </div>
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Вторичный привод</h3>
-                    <p class="characteristic-description">Карданный вал</p>
-                </div>
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Система управления тяговым усилием</h3>
-                    <p class="characteristic-description">BMW Motorrad DTC</p>
-                </div>
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Диаметр и ход поршня</h3>
+                <p class="characteristic-description">106,5 мм x 73 мм</p>
+            </div>
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Объем двигателя</h3>
+                <p class="characteristic-description">1,300 куб. см</p>
+            </div>
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Макс. крутящий момент</h3>
+                <p class="characteristic-description">149 Нм при 6,500 об/мин</p>
+            </div>
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Степень сжатия</h3>
+                <p class="characteristic-description">13,3 : 1</p>
+            </div>
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Подготовка рабочей смеси</h3>
+                <p class="characteristic-description">Электронная система впрыскивания топлива в предкамеру</p>
+            </div>
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Норма токсичности ОГ</h3>
+                <p class="characteristic-description">EU 5+</p>
             </div>
         </div>
     </div>
-    <div class="characteristic-img">
-        <img class="characteristic-img1" th:src="@{/img/2BMWGS.jpeg}" alt="">
-    </div>
-    <div class="characteristics">
-        <div class="characteristic1">
-            <h2 class="characteristic-name">Ходовая часть/тормоз</h2>
-            <div class="characteristic-box">
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Рама</h3>
-                    <p class="characteristic-description">Двухсекционная рама, состоящая из основной и прикрученной к ней задней части с несущим двигателем</p>
-                </div>
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Направляющая система подвески переднего колеса/упругие элементы</h3>
-                    <p class="characteristic-description">BMW Motorrad EVO-Telelever, разделение наклона руля при помощи компенсатора наклона, центральная амортизационная стойка</p>
-                </div>
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Направляющая система подвески заднего колеса/упругие элементы</h3>
-                    <p class="characteristic-description">BMW Motorrad EVO-Paralever, однорычажная подвеска колеса из алюминиевого литья, сплошная ось с качающимися стойками, центральная амортизационная стойка WAD, регулируемая компенсация нагрузки</p>
-                </div>
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Ход рессоры спереди/сзади</h3>
-                    <p class="characteristic-description">190 мм/200 мм</p>
-                </div>
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Колесная база</h3>
-                    <p class="characteristic-description">1518 мм</p>
-                </div>
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Кастор</h3>
-                    <p class="characteristic-description">112 мм</p>
-                </div>
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Угол поворота рулевой колонки</h3>
-                    <p class="characteristic-description">63.8 °</p>
-                </div>
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Передняя шина</h3>
-                    <p class="characteristic-description">120/70 R19</p>
-                </div>
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Задняя шина</h3>
-                    <p class="characteristic-description">170/60 R17</p>
-                </div>
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Передний тормоз</h3>
-                    <p class="characteristic-description">Двойной дисковый тормоз, тормозные диски с полуплавающим креплением, диаметр 310 мм, 4-поршневой тормозной радиальный суппорт</p>
-                </div>
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Задний тормоз</h3>
-                    <p class="characteristic-description">Однодисковый тормоз, диаметр 285 мм, 2-поршневой суппорт с плавающей скобой</p>
-                </div>
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Система ABS</h3>
-                    <p class="characteristic-description">Полностью интегрированная система BMW Motorrad ABS Pro (с оптимизацией для наклонного положения)</p>
-                </div>
+    <div class="characteristic1">
+        <h2 class="characteristic-name">Ходовые качества/расход топлива</h2>
+        <div class="characteristic-box">
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Максимальная скорость</h3>
+                <p class="characteristic-description">свыше 200 км/ч</p>
+            </div>
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Расход на 100 км согласно стандарту WMTC</h3>
+                <p class="characteristic-description">4.8 л</p>
+            </div>
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Уровень выброса углекислого газа согласно стандарту WMTC</h3>
+                <p class="characteristic-description">110 г/км</p>
+            </div>
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Тип топлива</h3>
+                <p class="characteristic-description">Неэтилированный бензин Super (этанол макс. 15 %, E15), 95 ROZ/RON, подготовка под топливо качества 91-98 ROZ/RON</p>
             </div>
         </div>
     </div>
-    <div class="characteristics">
-        <div class="characteristic1">
-            <h2 class="characteristic-name">Размеры/вес</h2>
-            <div class="characteristic-box">
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Высота сиденья при собственном весе транспортного средства</h3>
-                    <p class="characteristic-description">850 мм</p>
-                </div>
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Длина в паху при собственном весе транспортного средства</h3>
-                    <p class="characteristic-description">1,900 мм</p>
-                </div>
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Полезная емкость топливного бака</h3>
-                    <p class="characteristic-description">19 л</p>
-                </div>
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Из них запас</h3>
-                    <p class="characteristic-description">~ 4 л</p>
-                </div>
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Длина</h3>
-                    <p class="characteristic-description">2,212 мм (через брызговик)</p>
-                </div>
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Высота</h3>
-                    <p class="characteristic-description">1,406 мм (над ветрозащитным щитком)</p>
-                </div>
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Ширина</h3>
-                    <p class="characteristic-description">1,000 мм (над защитой для рук)</p>
-                </div>
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Масса без нагрузки в готовом к движению состоянии с полным баком</h3>
-                    <p class="characteristic-description">237 кг</p>
-                </div>
-                <div class="characteristic2">
-                    <h3 class="characteristic-subname">Допустимая полная масса</h3>
-                    <p class="characteristic-description">465 кг</p>
-                </div>
+    <div class="characteristic1">
+        <h2 class="characteristic-name">Электрическая система</h2>
+        <div class="characteristic-box">
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Генератор</h3>
+                <p class="characteristic-description">Трехфазный генератор 650 Вт (номинальная мощность)</p>
+            </div>
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Аккумуляторная батарея</h3>
+                <p class="characteristic-description">Аккумуляторная батарея 12 В / 14 Ач, не требующий технического обслуживания аккумулятор AGM</p>
             </div>
         </div>
     </div>
-    <footer>
-        <div class="footer-form">
-            <div class="links">
-                <div class="links-flex">
-                    <label for="VK">
-                        <img class="footer-lable" th:src="@{/img/VK.png}" alt="">
-                    </label>
-                    <a class="link" href="https://vk.com/honkyxd" target="_blank" id="VK">Страница в VK</a>
-                </div>
-                <div class="link-flex">
-                    <label for="mail">
-                        <img class="footer-lable" th:src="@{/img/mail.png}" alt="">
-                    </label>
-                    <a class="link-mail" href="mailto:belikov_vladik@mail.ru" target="_blank" id="mail">Почта</a>
-                </div>
+    <div class="characteristic1">
+        <h2 class="characteristic-name">Передача усилия</h2>
+        <div class="characteristic-box">
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Сцепление</h3>
+                <p class="characteristic-description">Гидравлическая муфта проскальзывающего типа, Anti-Hopping, с гидравлическим приводом</p>
             </div>
-            <form class="form" action="/submit" method="post">
-                <h4>Запросить предложение</h4>
-                <input class="input" type="text" placeholder="Ваше имя" name="name" required>
-                <input class="input" type="text" placeholder="Ваша фамилия" name="second_name" required>
-                <input class="input" type="tel" placeholder="+7(999)-000-00-00" name="phone" required>
-                <input class="input" type="email" placeholder="e-mail" name="email" required>
-                <button class="button1" type="submit">Отправить</button>
-                <button class="button2" type="reset">Очистить</button>
-            </form>
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Коробка передач</h3>
+                <p class="characteristic-description">6-ступенчатая коробка передач</p>
+            </div>
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Вторичный привод</h3>
+                <p class="characteristic-description">Карданный вал</p>
+            </div>
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Система управления тяговым усилием</h3>
+                <p class="characteristic-description">BMW Motorrad DTC</p>
+            </div>
         </div>
-        <div class="footer-bottom">
-            <p>© BMW AG 2025 <br><br>Телефон службы клиентской поддержки +7-910-437-41-97 (Пн-Пт: с 09:00 до 18:00)<br><br>Обратите внимание: Все мотоциклы поставляются с оборудованием, соответствующим требованиям законодательства (например, фильтрами выхлопных газов и боковыми отражателями). Фотографии и видеозаписи мотоциклов, представленных на этом сайте, могут незначительно отличаться от моделей для российского рынка.</p>
-            <img class="make" th:src="@{/img/Make.png}" alt="">
+    </div>
+</div>
+<div class="characteristic-img">
+    <img class="characteristic-img1" th:src="@{/img/2BMWGS.jpeg}" alt="">
+</div>
+<div class="characteristics">
+    <div class="characteristic1">
+        <h2 class="characteristic-name">Ходовая часть/тормоз</h2>
+        <div class="characteristic-box">
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Рама</h3>
+                <p class="characteristic-description">Двухсекционная рама, состоящая из основной и прикрученной к ней задней части с несущим двигателем</p>
+            </div>
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Направляющая системы подвески переднего колеса/упругие элементы</h3>
+                <p class="characteristic-description">BMW Motorrad EVO-Telelever, разделение наклона руля при помощи компенсатора наклона, центральная амортизационная стойка</p>
+            </div>
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Направляющая системы подвески заднего колеса/упругие элементы</h3>
+                <p class="characteristic-description">BMW Motorrad EVO-Paralever, однорычажная подвеска колеса из алюминиевого литья, сплошная ось с качающимися стойками, центральная амортизационная стойка WAD, регулируемая компенсация нагрузки</p>
+            </div>
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Ход рессоры спереди/сзади</h3>
+                <p class="characteristic-description">190 мм/200 мм</p>
+            </div>
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Колесная база</h3>
+                <p class="characteristic-description">1518 мм</p>
+            </div>
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Кастор</h3>
+                <p class="characteristic-description">112 мм</p>
+            </div>
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Угол поворота рулевой колонки</h3>
+                <p class="characteristic-description">63.8 °</p>
+            </div>
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Передняя шина</h3>
+                <p class="characteristic-description">120/70 R19</p>
+            </div>
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Задняя шина</h3>
+                <p class="characteristic-description">170/60 R17</p>
+            </div>
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Передний тормоз</h3>
+                <p class="characteristic-description">Двойной дисковый тормоз, тормозные диски с полуплавающим креплением, диаметр 310 мм, 4-поршневой тормозной радиальный суппорт</p>
+            </div>
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Задний тормоз</h3>
+                <p class="characteristic-description">Однодисковый тормоз, диаметр 285 мм, 2-поршневой суппорт с плавающей скобой</p>
+            </div>
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Система ABS</h3>
+                <p class="characteristic-description">Полностью интегрированная система BMW Motorrad ABS Pro (с оптимизацией для наклонного положения)</p>
+            </div>
         </div>
-    </footer>
+    </div>
+</div>
+<div class="characteristics">
+    <div class="characteristic1">
+        <h2 class="characteristic-name">Размеры/вес</h2>
+        <div class="characteristic-box">
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Высота сиденья при собственном весе транспортного средства</h3>
+                <p class="characteristic-description">850 мм</p>
+            </div>
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Длина в паху при собственном весе транспортного средства</h3>
+                <p class="characteristic-description">1,900 мм</p>
+            </div>
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Полезная емкость топливного бака</h3>
+                <p class="characteristic-description">19 л</p>
+            </div>
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Из них запас</h3>
+                <p class="characteristic-description">~ 4 л</p>
+            </div>
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Длина</h3>
+                <p class="characteristic-description">2,212 мм (через брызговик)</p>
+            </div>
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Высота</h3>
+                <p class="characteristic-description">1,406 мм (над ветрозащитным щитком)</p>
+            </div>
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Ширина</h3>
+                <p class="characteristic-description">1,000 мм (над защитой для рук)</p>
+            </div>
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Масса без нагрузки в готовом к движению состоянии с полным баком</h3>
+                <p class="characteristic-description">237 кг</p>
+            </div>
+            <div class="characteristic2">
+                <h3 class="characteristic-subname">Допустимая полная масса</h3>
+                <p class="characteristic-description">465 кг</p>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="footer-form">
+        <div class="links">
+            <div class="links-flex">
+                <label for="VK">
+                    <img class="footer-lable" th:src="@{/img/VK.png}" alt="">
+                </label>
+                <a class="link" href="https://vk.com/honkyxd" target="_blank" id="VK">Страница в VK</a>
+            </div>
+            <div class="link-flex">
+                <label for="mail">
+                    <img class="footer-lable" th:src="@{/img/mail.png}" alt="">
+                </label>
+                <a class="link-mail" href="mailto:belikov_vladik@mail.ru" target="_blank" id="mail">Почта</a>
+            </div>
+        </div>
+        <form class="form" action="/submit" method="post">
+            <h4>Запросить предложение</h4>
+            <input class="input" type="text" placeholder="Ваше имя" name="name" required>
+            <input class="input" type="text" placeholder="Ваша фамилия" name="second_name" required>
+            <input class="input" type="tel" placeholder="+7(999)-000-00-00" name="phone" required>
+            <input class="input" type="email" placeholder="e-mail" name="email" required>
+            <button class="button1" type="submit">Отправить</button>
+            <button class="button2" type="reset">Очистить</button>
+        </form>
+    </div>
+    <div class="footer-bottom">
+        <p>© BMW AG 2025 <br><br>Телефон службы клиентской поддержки +7-910-437-41-97 (Пн-Пт: с 09:00 до 18:00)<br><br>Обратите внимание: Все мотоциклы поставляются с оборудованием, соответствующим требованиям законодательства (например, фильтрами выхлопных газов и боковыми отражателями). Фотографии и видеозаписи мотоциклов, представленных на этом сайте, могут незначительно отличаться от моделей для российского рынка.</p>
+        <img class="make" th:src="@{/img/Make.png}" alt="">
+    </div>
+</footer>
 </body>
 </html>
